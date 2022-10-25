@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: sans-serif;
+    line-height: 1.7em;   
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.text-primary{
+    color: rgb(119, 203, 236);
+}
+
+.lead{
+    font-size: 18px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    background: #333;
+    padding: 8px 17px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background:#333;
+    color: gold;
+}
+.btn-light{
+     background: #f4f4f4;
+     color: #333;
+     
+
+}
+
+.bg-light{
+    background: #f4f4f4;
+    color:#333 ;
+}
+.bg-dark{
+    background:steelblue;
+    color: #fff;
+}
+.bg-primary{
+    color: #333;
+    background:  rgb(86, 140, 221);
+}
+#features:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.l-heading{
+    font-size: 30px;
+}
+
+
+.py-1{padding: 10px 0;}
+.py-2{padding: 20px 0;}
+.py-3{padding: 40px 0;}
+
+#navbar{
+    background-color:rgb(116, 152, 206);
+    color: #eee;
+    overflow: auto;
+}
+
+#navbar a{
+    color: #fff;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background-color:rgb(59, 50, 50);
+    color: gold;
+}
+
+
+
+
+
+#showcase, .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase, .showcase-content h1{
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
+#showcase, .showcase-content p{
+    padding-bottom:20px ;
+    line-height: 1.7em;
+}
+
+#home-info{
+    height:400px;
+}
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background:url(./images/hotel3.jpg)  ;
+    min-height: 100%;
+}
+
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p{
+    padding-bottom:20px ;
+}
+
+
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i{
+    margin-bottom: 10px;
+}
+
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img{
+    width: 80% ;
+    display: block;
+    margin: auto;
+    border-radius: 45px;
+}
+
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+.info-left .info-right:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+#testimonials h2{
+    color: #fff;
+    text-align: center;
+    padding-bottom:40px ;
+}
+#testimonials .testimonial{
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+#testimonials .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50px;    
+}
+ 
+ 
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea{
+    width: 60%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+#contact-form textarea{
+    height: 200px;
+}
+
+#contact-form input,
+#contact-form textarea:focus{
+    outline:none;
+    border-color: black;  
+}
+.container p{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#main-footer{
+    text-align: center;
+    background: rgb(177, 36, 219);
+    color:#fff;
+    padding: 10px;    
+}
+
+
+
+
+.container form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .inputBox{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .inputBox input[type="text"], .inputBox input[type="email"]{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 0px 10px;
+    font-size: 16px;
+    color: #444;
+  }
+  .inputBox button{
+    width: 100%;    
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: rgb(0, 119, 255);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  
+  }
+  .inputBox button:hover{
+    background: rgb(0, 17, 255);
+    transition: all 0.3s ease;
+  }
+  
+  
+  
+  
+  .inputBox textarea{
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 0px 10px;
+    font-size: 16px;
+    color: #444;
+  }
